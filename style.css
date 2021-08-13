@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display:grid;
+    width: 100vw;
+    height: 150vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10em;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.elements{
+    height: 30vh;
+    border:  3px solid black;
+}
+
+.fifthEl{
+    height: 30vh;
+    border: 3px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
